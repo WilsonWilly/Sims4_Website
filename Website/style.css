@@ -1,0 +1,147 @@
+.banner-image {
+    width: 400px;
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 14%
+}
+
+.banner-button {
+    width: 120px;
+    position: absolute;
+    margin-top: 36%;
+    margin-left: 26%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner-button:hover {
+    width: 120px;
+    position: absolute;
+    margin-top: 36%;
+    margin-left: 26%;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner-p {
+    color: white;
+    position: absolute;
+    margin-top: 33%;
+    font-weight: bold;
+    margin-left: 22%;
+}
+
+.img {
+    opacity: 0.90;
+}
+
+.img:hover {
+    opacity: 0.60;
+
+}
+
+.ul li {
+    display: inline-block;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.ul li a:hover {
+    text-decoration: none;
+    background-color: gray;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.dropdown a:hover ul li {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1000px) {
+    .banner-image {
+        width: 400px;
+        position: absolute;
+        margin-top: 14%;
+        margin-left: 1%
+    }
+    .banner-button {
+        width: 120px;
+        position: absolute;
+        margin-top: 34%;
+        margin-left: 16%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+    .banner-p {
+        color: white;
+        position: absolute;
+        margin-top: 30%;
+        font-weight: bold;
+        margin-left: 11%;
+    }
+    
+    
+  }
+
+
+  @media screen and (min-width:498px) and (max-width:742px)
+  {
+    .banner-image {
+        width: 230px;
+        position: absolute;
+        margin-top: 12%;
+        margin-left: 1%
+    }
+    .banner-button {
+        width: 120px;
+        position: absolute;
+        margin-top: 34%;
+        margin-left: 16%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+    .banner-p {
+        color: white;
+        position: absolute;
+        margin-top: 29%;
+        font-weight: bold;
+        margin-left: 11%;
+    }
+
+  }
+
+  @media screen and (min-width:250px) and (max-width:498px)
+  {
+    .banner-image {
+        width: 140px;
+        position: absolute;
+        margin-top: 12%;
+        margin-left: 1%
+    }
+    .banner-button {
+        width: 120px;
+        position: absolute;
+        margin-top: 36%;
+        margin-left: 11%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+    .banner-p {
+        color: white;
+        position: absolute;
+        margin-top: 29%;
+        font-weight: bold;
+        margin-left: 6%;
+    }
+
+  }
